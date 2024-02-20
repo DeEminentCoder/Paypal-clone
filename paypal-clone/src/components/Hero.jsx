@@ -3,9 +3,9 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <div className="hero row d-flex p-5">
-        <div className="col left-hero-side">
-          <button className="btn btn-lg bg-body-secondary border rounded-5 p-1 row d-flex w- ">
+      <div className="hero row d-flex p-5 w-100 container-fluid gap-2 m-0">
+        <div className="col left-hero-side my-3">
+          <button className="btn btn-lg bg-body-secondary border rounded-5 p-1 row d-flex">
             <button className="btn- bg-white btn col rounded-5 px-4 py-1 fw-bold">
               Personal
             </button>
@@ -23,9 +23,7 @@ const Hero = () => {
           </button>
         </div>
         <div className="col right-hero-side">
-          <div>
-            <img src="ew.gif" alt="m,/nkj" width={300}/>
-          </div>
+            <img src="ew.gif" alt="" width={330} className="m-1"/>
         </div>
       </div>
     </>

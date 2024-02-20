@@ -3,9 +3,9 @@ import "../index.css";
 
 const Navbar = () => {
   return (
-    <header className="row shadow">
+    <header className="row shadow container-fluid w-100 m-0 gap-2 p-1">
       <div className="left-nav-items col container-fluid">
-        <nav className="navbar navbar-expand-lg px-4 py-3">
+        <nav className="navbar navbar-expand-lg p-3">
           <div className="container-fluid gap-2">
             <a className="navbar-brand" href="#">
               <img
@@ -134,12 +134,12 @@ const Navbar = () => {
         </nav>
       </div>
 
-      <div className="right-nav-items me- col col-sm-0 pe-5 fw-semibold">
-        <ul className="d-flex gap-4 align-items-center justify-content-end">
-          <li className="">
+      <div className="right-nav-items mt-3 col col-sm-0 fw-semibold">
+        <ul className="d-flex gap-4 align-items-center justify-content-center justify-content-sm-end">
+          <li className="hido">
             <a>What's New</a>
           </li>
-          <li className="">
+          <li className="hido">
             <a>Help</a>
           </li>
           <li className="">
