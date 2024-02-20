@@ -4,8 +4,8 @@ import "../index.css";
 const Navbar = () => {
   return (
     <header className="row shadow">
-      <div className="left-nav-items col col-sm- container-fluid">
-        <nav className="navbar navbar-expand-lg p-4">
+      <div className="left-nav-items col container-fluid">
+        <nav className="navbar navbar-expand-lg px-4 py-3">
           <div className="container-fluid gap-2">
             <a className="navbar-brand" href="#">
               <img

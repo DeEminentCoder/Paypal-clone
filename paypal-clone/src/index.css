@@ -1,6 +1,7 @@
-/* *{
+*{
     outline: 1px solid gold;
-} */
+    font-family: "Open Sans", sans-serif;
+}
 li {
     font-family: "Open Sans", sans-serif;
     font-size: 0.9em;
@@ -44,4 +45,21 @@ a {
     align-items: center;
     white-space: nowrap;
     border-radius: 1.5625rem;
+}
+
+.hero {
+    background: linear-gradient(180deg,#001435 43.89%,#003087 102%);
+    /* height: 400px; */
+}
+.left-hero-side {
+    margin-left: 130px;
+}
+.left-hero-side button{
+    font-size: 1em;
+}
+.left-hero-side h1{
+    font-weight: 700;
+}
+.left-hero-side h5{
+    font-weight: 700;
 }
