@@ -7,6 +7,7 @@ import 'bootstrap/dist/js/bootstrap.js'
 import Hero from './components/Hero.jsx'
 import Content from './components/Content.jsx'
 import Content2 from './components/Content2.jsx'
+import Content3 from './components/Content3.jsx'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
     <Hero></Hero>
     <Content></Content>
     <Content2></Content2>
+    <Content3></Content3>
     </>
   )
 }

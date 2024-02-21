@@ -96,9 +96,20 @@ a {
   font-size: 2.1em;
 }
 .put {
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 
+/* CONTENT3 STYLING */
+.content2 h2 {
+  font-weight: 700;
+  line-height: 1.2em;
+  font-size: 2.1em;
+}
+.balance {
+  font-size: 0.8em;
+}
+
+/* MEDIA QURIES */
 @media only screen and (max-width: 600px) {
   .hido {
     display: none;
