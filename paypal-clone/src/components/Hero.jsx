@@ -23,7 +23,7 @@ const Hero = () => {
           </button>
         </div>
         <div className="col right-hero-side">
-            <img src="ew.gif" alt="" width={330} className="m-1"/>
+            <img src="ew.gif" alt="" width={330} className="ms-5"/>
         </div>
       </div>
     </>
