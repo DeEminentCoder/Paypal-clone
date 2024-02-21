@@ -3,19 +3,19 @@ import React from "react";
 const Content = () => {
   return (
     <>
-      <div className="content bg-none row d-flex p-5 w-100 container-fluid  mx-0">
+      <div className="content bg-none row d-flex px- pt-5 w-100 container-fluid  mx-0">
         <div className="col content-left-side">
           <h2 className="my-4 text-primary-emphasis">
             Get
             <span className="text-primary">
               {" "}
-              unlimited cash<br></br>back
+              unlimited cash back {''}
             </span>
-            on your favorite<br></br>brands
+            on your favorite brands
           </h2>
           <span className="text-secondary save">
             Save as many cash back1 offers as you want. Earn 2, 3, 4,
-            <br></br>5%and more after you check out with PayPal. Check<br></br>
+            5%and more after you check out with PayPal. Check
             offers for details.{" "}
             <a className="fw-semibold">Terms and exclusions apply</a>
           </span>

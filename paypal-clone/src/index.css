@@ -1,113 +1,144 @@
-*{
-    /* outline: 1px solid gold; */
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  /* outline: 1px solid gold; */
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+/* NAVBAR STYLING */
 li {
-    font-family: "Poppins", sans-serif;
-    font-size: 0.9em;
-    text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9em;
+  text-decoration: none;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 a {
-    color: rgb(1,48,134) !important;
+  color: rgb(1, 48, 134) !important;
 }
 
 .login-btn {
-    border: 0.125rem solid #003087;
-    color: #003087;
-    padding: 12px 40px;
-    font-size: 1.1em;
-    line-height: 1.375rem;
-    align-items: center;
-    white-space: nowrap;
-    border-radius: 1.5625rem;
+  border: 0.125rem solid #003087;
+  color: #003087;
+  padding: 12px 40px;
+  font-size: 1.1em;
+  line-height: 1.375rem;
+  align-items: center;
+  white-space: nowrap;
+  border-radius: 1.5625rem;
 }
 .signup-btn {
-    border: none;
-    color: white;
-    background-color: #003087;
-    padding: 12px 40px;
-    font-size: 1.1em;
-    line-height: 1.375rem;
-    align-items: center;
-    white-space: nowrap;
-    border-radius: 1.5625rem;
+  border: none;
+  color: white;
+  background-color: #003087;
+  padding: 12px 40px;
+  font-size: 1.1em;
+  line-height: 1.375rem;
+  align-items: center;
+  white-space: nowrap;
+  border-radius: 1.5625rem;
 }
 
+/* HERO STYLING */
 .hero {
-    background: linear-gradient(180deg,#001435 43.89%,#003087 102%);
+  background: linear-gradient(180deg, #001435 43.89%, #003087 102%);
 }
 .left-hero-side {
-    margin-left: 120px;
+  margin-left: 120px;
 }
-.left-hero-side button{
-    font-size: 1em;
+.left-hero-side button {
+  font-size: 1em;
 }
-.left-hero-side h1{
-    font-weight: 700;
+.left-hero-side h1 {
+  font-weight: 700;
 }
-.left-hero-side h5{
-    font-weight: 700;
+.left-hero-side h5 {
+  font-weight: 700;
 }
+
+/* CONTENT1 STYLING */
 .content h2 {
   font-weight: 700;
   line-height: 1.2em;
   font-size: 2.1em;
 }
 .save {
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 .content-left-side {
-    margin: 100px 0 50px 120px !important;
+  padding: 0 80px !important;
+  margin: 100px 0 50px 100px !important;
+}
+.content-right-side {
+  padding: 0 50px 0 80px !important;
 }
 .check {
-    background-color: #003087 !important;
+  background-color: #003087 !important;
 }
 
-
-
-
-
-
+/* CONTENT2 STYLING */
+.content2-right-side {
+  margin: 0 0 0 120px;
+}
+.content2-left-side {
+  padding: 0 80px !important;
+  margin-top: 60px !important;
+}
+.content2 h2 {
+  font-weight: 700;
+  line-height: 1.2em;
+  font-size: 2.1em;
+}
+.put {
+  font-size: 0.9em;
+}
 
 @media only screen and (max-width: 600px) {
-    .hido {
-      display: none;
-    }
+  .hido {
+    display: none;
   }
+}
 @media only screen and (max-width: 600px) {
-    .left-hero-side {
-        margin-left: 50px;
-        margin-bottom: 50px;
-    }
+  .left-hero-side {
+    margin-left: 50px;
+    margin-bottom: 50px;
   }
+}
 @media only screen and (max-width: 600px) {
-    .content-left-side {
-        margin-left: 50px;
-        margin-bottom: 50px;
-    }
+  .content-left-side {
+    margin-left: 50px !important;
+    margin-bottom: 20px !important;
   }
-/* @media only screen and (max-width: 600px) {
-    .content-right-side {
-        margin-left: -60px;
-        padding: 0;
-        margin-bottom: 50px;
-    }
-  } */
+}
 @media only screen and (max-width: 600px) {
-    .content-right-side img {
-        /* margin-left: -50px; */
-        margin-right: 0;
-        width: 400px;
-        margin-bottom: 50px;
-    }
+  .content-right-side {
+    margin-left: -30px !important;
   }
+}
+@media only screen and (max-width: 600px) {
+  .content2-right-side {
+    margin-left: 30px;
+    margin-bottom: -100px;
+    /* padding: 0%; */
+  }
+}
+@media only screen and (max-width: 600px) {
+  .content2-right-side img {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .content-right-side img {
+    /* margin-left: -50px; */
+    margin-right: 0;
+    width: 400px;
+    margin-bottom: 50px;
+  }
+}
