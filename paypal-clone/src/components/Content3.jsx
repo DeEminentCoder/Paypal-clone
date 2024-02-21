@@ -13,7 +13,7 @@ const Content3 = () => {
             </span>
           </h2>
           <span className="text-secondary save">
-          Roll all that cash back into a high-yield PayPal Savings account. You could earn 4.30% APY.5 Tha'’s earning cash on cash back.
+          Roll all that cash back into a high-yield PayPal Savings account. You could earn 4.30% APY.5 That's earning cash on cash back.
           </span>
           <br></br>
           <button className="check btn-lg btn col rounded-5 mt-3 mb-2 px-4 py-2 text-white fw-bold fs-6">

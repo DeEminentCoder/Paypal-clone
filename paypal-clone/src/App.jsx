@@ -8,6 +8,7 @@ import Hero from './components/Hero.jsx'
 import Content from './components/Content.jsx'
 import Content2 from './components/Content2.jsx'
 import Content3 from './components/Content3.jsx'
+import Content4 from './components/Content4.jsx'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
     <Content></Content>
     <Content2></Content2>
     <Content3></Content3>
+    <Content4></Content4>
     </>
   )
 }
