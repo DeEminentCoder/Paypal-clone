@@ -10,6 +10,7 @@ import Content2 from './components/Content2.jsx'
 import Content3 from './components/Content3.jsx'
 import Content4 from './components/Content4.jsx'
 import Content5 from './components/Content5.jsx'
+import ExploreCarousel from './components/ExploreCarousel.jsx'
 import '../custom.scss'
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
     <Content3></Content3>
     <Content4></Content4>
     <Content5></Content5>
+    <ExploreCarousel></ExploreCarousel>
     </>
   )
 }
