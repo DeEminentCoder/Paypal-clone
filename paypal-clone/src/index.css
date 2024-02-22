@@ -109,6 +109,24 @@ a {
   font-size: 0.8em;
 }
 
+/* CONTENT5 STYLING */
+.add {
+    padding: 100px 150px;
+}
+.discover {
+    margin-left: 200px;
+}
+.rotate-90 {
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+}
+.find {
+    font-size: 0.8em;
+  }
+
 /* MEDIA QURIES */
 @media only screen and (max-width: 600px) {
   .hido {
@@ -151,5 +169,23 @@ a {
     margin-right: 0;
     width: 400px;
     margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .downapp .col-12{
+    margin: 10px 0 0 0 !important;
+    padding: 0 !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .discover {
+    margin: 0 0 0 30px !important;
+    padding: 0 !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .add {
+    margin: 20px 0 30px 20px !important;
+    padding: 0 !important;
   }
 }

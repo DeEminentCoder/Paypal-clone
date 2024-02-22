@@ -9,6 +9,8 @@ import Content from './components/Content.jsx'
 import Content2 from './components/Content2.jsx'
 import Content3 from './components/Content3.jsx'
 import Content4 from './components/Content4.jsx'
+import Content5 from './components/Content5.jsx'
+import '../custom.scss'
 
 const App = () => {
   return (
@@ -19,6 +21,7 @@ const App = () => {
     <Content2></Content2>
     <Content3></Content3>
     <Content4></Content4>
+    <Content5></Content5>
     </>
   )
 }
