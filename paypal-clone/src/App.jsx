@@ -11,6 +11,7 @@ import Content3 from './components/Content3.jsx'
 import Content4 from './components/Content4.jsx'
 import Content5 from './components/Content5.jsx'
 import ExploreCarousel from './components/ExploreCarousel.jsx'
+import Footer from './components/Footer.jsx'
 import '../custom.scss'
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
     <Content4></Content4>
     <Content5></Content5>
     <ExploreCarousel></ExploreCarousel>
+    <Footer></Footer>
     </>
   )
 }

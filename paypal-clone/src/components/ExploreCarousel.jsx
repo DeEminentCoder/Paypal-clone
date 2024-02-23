@@ -3,10 +3,10 @@ import React from "react";
 const ExploreCarousel = () => {
   return (
     <>
-      <div className="p-5 row container-fluid gap-4 m-0 ">
+      <div className="p-5 row container-fluid m-0">
         <div
           id="carouselExampleAutoplaying"
-          className="carousel slide p-3 rounded-top-5 border w-25 col-12 col-sm -4"
+          className="carousel slide p-3 rounded-top-5 border col-12   col-sm-4"
           data-bs-ride="carousel"
         >
           <div className="carousel-inner">
@@ -19,7 +19,7 @@ const ExploreCarousel = () => {
               <p className="mx-2 my-4">Payments |</p>
               <h6 className="fw-bold text-primary-emphasis m-2">How to transfer money from a credit card</h6>
               <p className="mx-2 my-2">Author: PayPal Editorial Staff</p>
-              <p className="mx-2 my-4">May 22 | Article</p>
+              <p className="mx-2 mt-4">May 22 | Article</p>
             </div>
             <div className="carousel-item">
               <img
@@ -30,7 +30,7 @@ const ExploreCarousel = () => {
               <p className="mx-2 my-4">Payments |</p>
               <h6 className="fw-bold text-primary-emphasis m-2">How to transfer money from a credit card</h6>
               <p className="mx-2 my-2">Author: PayPal Editorial Staff</p>
-              <p className="mx-2 my-4">May 22 | Article</p>
+              <p className="mx-2 mt-4">May 22 | Article</p>
             </div>
           </div>
           <button
@@ -62,7 +62,7 @@ const ExploreCarousel = () => {
 
         <div
           id="carouselExampleAutoplaying2"
-          className="carousel slide p-3 rounded-top-5 border w-25 col-12 col-sm -4"
+          className="carousel slide p-3 rounded-top-5  col-12   col-sm-4"
           data-bs-ride="carousel"
         >
           <div className="carousel-inner">
@@ -116,7 +116,7 @@ const ExploreCarousel = () => {
         </div>
         <div
           id="carouselExampleAutoplaying3"
-          className="carousel slide p-3 rounded-top-5 border w-25 col-12 col-sm -4"
+          className="carousel slide p-3 rounded-top-5 border   col-12   col-sm-4"
           data-bs-ride="carousel"
         >
           <div className="carousel-inner">
